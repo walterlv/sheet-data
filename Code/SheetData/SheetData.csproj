@@ -38,6 +38,9 @@
     <Folder Include="Targets\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\ITypeConverter.cs" />
+    <Compile Include="Core\SheetAttribute.cs" />
+    <Compile Include="Core\SheetHeadersAttribute.cs" />
     <Compile Include="SheetConverter.cs" />
     <Compile Include="SheetSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

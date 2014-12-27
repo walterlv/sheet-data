@@ -1,6 +1,10 @@
 ﻿namespace Walterlv.Data.Sheeting
 {
-    public class SheetSource
+    public class SheetSource : ISheetSource
+    {
+    }
+
+    public interface ISheetSource
     {
     }
 }

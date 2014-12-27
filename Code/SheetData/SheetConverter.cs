@@ -1,4 +1,6 @@
-﻿namespace Walterlv.Data.Sheeting
+﻿using System;
+
+namespace Walterlv.Data.Sheeting
 {
     public class SheetConverter
     {
@@ -6,6 +8,7 @@
 
         public SheetConverter(SheetSource source)
         {
+            if (source == null) throw new ArgumentNullException("source");
             Source = source;
         }
     }
